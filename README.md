@@ -236,3 +236,100 @@ const colors = {
 - **Image Caching**: Optimized image loading
 - **Memoized Components**: Reduced unnecessary re-renders
 - **Efficient State Management**: Minimal state updates
+
+
+## Time Breakdown (6 Hours)
+### Hour 1: Project Setup & Foundation (0-60 mins)
+
+    ✅ Expo project initialization
+
+    ✅ TypeScript configuration
+
+    ✅ Project structure setup
+
+    ✅ Basic navigation routing
+
+    ✅ Color system and design tokens
+
+### Hour 2: API Integration & Data Layer (60-120 mins)
+
+    ✅ Trustpilot API service setup
+
+    ✅ Axios configuration with RapidAPI headers
+
+    ✅ Type definitions for Company/Review models
+
+    ✅ API error handling and response parsing
+
+### Hour 3: Core Components (120-180 mins)
+
+    ✅ CompanyCard component with ratings display
+
+    ✅ SearchBar with debounced input
+
+    ✅ StarRating visual component
+
+    ✅ FavoriteButton with toggle logic
+
+### Hour 4: Main Search Screen (180-240 mins)
+
+    ✅ Company list with FlatList virtualization
+
+    ✅ Real-time search functionality
+
+    ✅ Favorite management system
+
+    ✅ Empty states and loading indicators
+
+### Hour 5: Company Details and Favorite Screen (240-300 mins)
+
+    ✅ Dynamic routing with Expo Router
+
+    ✅ Company information display
+
+    ✅ Reviews list implementation
+
+    ✅ Pull-to-refresh functionality
+
+### Hour 6: Polish & Final Touches (300-360 mins)
+
+    ✅ Favorites screen implementation
+
+    ✅ AsyncStorage persistence layer
+
+    ✅ Error boundaries and loading states
+
+    ✅ Code cleanup and documentation
+
+    ✅ README file creation
+
+
+## 🚀 What I'd Add Next with More Time
+
+### If I had more time, my immediate priorities would be:
+
+    Ensure Company Details Screen Works Completely
+
+        Fix the API integration to properly display all reviews
+
+        Implement proper error handling for review loading
+
+        Add pagination for large review sets
+
+        Ensure all review data displays correctly
+
+    Implement Offline Functionality with Cached Data
+
+        Cache company search results locally
+
+        Store company details and reviews for offline access
+
+        Implement sync strategy for when connection returns
+
+        Add offline indicators and retry mechanisms
+
+### These two features are crucial for the app:
+
+    Complete Company Details: Users need to see all reviews to make informed decisions
+
+    Offline Support: Essential for mobile users who may have spotty connectivity
